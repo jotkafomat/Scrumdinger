@@ -30,18 +30,16 @@ struct CardView: View {
             .font(.caption)
         }
         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        .foregroundColor(scrum.color.accessibleFontColor)
-        
+        .foregroundColor(scrum.color.accessibleFontColor)        
     }
 }
 
 struct CardView_Previews: PreviewProvider {
-    static var scrum = DailyScrum.data[0]
+    static var scrum = DailyScrum.data[1]
     
     static var previews: some View {
         CardView(scrum: scrum)
             .background(scrum.color)
             .previewLayout(.fixed(width: 400, height: 60))
-           // .environment(\.accessibilityInvertColors, true)
     }
 }
