@@ -21,10 +21,10 @@ struct CardView: View {
                     .accessibilityLabel(Text("Attendees"))
                     .accessibilityValue(Text("\(scrum.attendees.count)"))
                 Spacer()
-                Label("\(scrum.lenghtInMinutes)", systemImage: "clock")
+                Label("\(scrum.lengthInMinutes)", systemImage: "clock")
                     .accessibilityElement(children:.ignore)
                     .accessibilityLabel(Text("Meeting lenght"))
-                    .accessibilityValue(Text("\(scrum.lenghtInMinutes) minutes"))
+                    .accessibilityValue(Text("\(scrum.lengthInMinutes) minutes"))
                     .padding(.trailing)
             }
             .font(.caption)

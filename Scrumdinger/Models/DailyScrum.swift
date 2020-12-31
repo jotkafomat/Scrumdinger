@@ -15,14 +15,14 @@ struct DailyScrum: Identifiable {
         self.id = id
         self.title = title
         self.attendees = attendees
-        self.lenghtInMinutes = lenghtInMinutes
+        self.lengthInMinutes = lenghtInMinutes
         self.color = color
     }
     
     let id: UUID
     var title: String
     var attendees: [String]
-    var lenghtInMinutes: Int
+    var lengthInMinutes: Int
     var color: Color
 }
 
