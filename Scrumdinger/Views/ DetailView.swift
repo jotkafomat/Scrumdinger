@@ -23,7 +23,7 @@ struct DetailView: View {
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
-                HStack{
+                HStack {
                     Label("Color", systemImage: "paintpalette")
                     Spacer()
                     Image(systemName: "checkmark.circle.fill")
@@ -31,6 +31,13 @@ struct DetailView: View {
                     
                 }
                 .accessibilityElement(children: .ignore)
+                Section(header: Text("Atendees")) {
+                    ForEach(scrum.attendees, id: \.self) { attendee in
+                        Label(attendee, systemImage: "person")
+                            .accessibilityLabel(Text("Person"))
+                            .accessibilityValue(Text(attendee))
+                    }
+                }
             }
         }
         .listStyle(InsetGroupedListStyle())
