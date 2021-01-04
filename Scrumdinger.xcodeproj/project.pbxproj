@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E13E123325A38E110049E702 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E123225A38E110049E702 /* MeetingHeaderView.swift */; };
 		E161A710259BCAFC00EF2F72 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A70F259BCAFC00EF2F72 /* ScrumdingerApp.swift */; };
 		E161A712259BCAFC00EF2F72 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A711259BCAFC00EF2F72 /* MeetingView.swift */; };
 		E161A714259BCAFF00EF2F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E161A713259BCAFF00EF2F72 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E13E123225A38E110049E702 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		E161A70C259BCAFC00EF2F72 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E161A70F259BCAFC00EF2F72 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		E161A711259BCAFC00EF2F72 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				E161A75B259CEFEC00EF2F72 /* ScrumsView.swift */,
 				E161A776259DEEDD00EF2F72 /* DetailView.swift */,
 				E161A781259E44AF00EF2F72 /* EditView.swift */,
+				E13E123225A38E110049E702 /* MeetingHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				E161A712259BCAFC00EF2F72 /* MeetingView.swift in Sources */,
 				E161A75C259CEFED00EF2F72 /* ScrumsView.swift in Sources */,
 				E161A782259E44AF00EF2F72 /* EditView.swift in Sources */,
+				E13E123325A38E110049E702 /* MeetingHeaderView.swift in Sources */,
 				E161A744259CE1CA00EF2F72 /* DailyScrum.swift in Sources */,
 				E161A74D259CE31800EF2F72 /* Color+Codable.swift in Sources */,
 				E161A710259BCAFC00EF2F72 /* ScrumdingerApp.swift in Sources */,
