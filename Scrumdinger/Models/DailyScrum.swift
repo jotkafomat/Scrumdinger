@@ -11,12 +11,13 @@ import SwiftUI
 
 struct DailyScrum: Identifiable {
     
-    init(id: UUID = UUID(), title: String, attendees: [String], lenghtInMinutes: Int, color: Color) {
+    init(id: UUID = UUID(), title: String, attendees: [String], lenghtInMinutes: Int, color: Color, history: [History] = []) {
         self.id = id
         self.title = title
         self.attendees = attendees
         self.lengthInMinutes = lenghtInMinutes
         self.color = color
+        self.history = history
     }
     
     let id: UUID
@@ -24,6 +25,8 @@ struct DailyScrum: Identifiable {
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
+    var history: [History]
+
 }
 
 extension DailyScrum {

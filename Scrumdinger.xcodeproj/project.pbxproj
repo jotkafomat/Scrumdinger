@@ -25,6 +25,7 @@
 		E161A782259E44AF00EF2F72 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161A781259E44AF00EF2F72 /* EditView.swift */; };
 		E1BB0E4A25A76FDE005D18B5 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB0E4925A76FDE005D18B5 /* AVPlayer+Ding.swift */; };
 		E1BB0E5025A77049005D18B5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1BB0E4F25A77049005D18B5 /* ding.wav */; };
+		E1BB0E5625A78115005D18B5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB0E5525A78115005D18B5 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E161A781259E44AF00EF2F72 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		E1BB0E4925A76FDE005D18B5 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		E1BB0E4F25A77049005D18B5 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		E1BB0E5525A78115005D18B5 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				E13E123D25A4CD8C0049E702 /* ScrumTimer.swift */,
+				E1BB0E5525A78115005D18B5 /* History.swift */,
 				E161A743259CE1CA00EF2F72 /* DailyScrum.swift */,
 				E161A74C259CE31800EF2F72 /* Color+Codable.swift */,
 				E1BB0E4925A76FDE005D18B5 /* AVPlayer+Ding.swift */,
@@ -322,6 +325,7 @@
 			files = (
 				E161A712259BCAFC00EF2F72 /* MeetingView.swift in Sources */,
 				E161A75C259CEFED00EF2F72 /* ScrumsView.swift in Sources */,
+				E1BB0E5625A78115005D18B5 /* History.swift in Sources */,
 				E161A782259E44AF00EF2F72 /* EditView.swift in Sources */,
 				E1BB0E4A25A76FDE005D18B5 /* AVPlayer+Ding.swift in Sources */,
 				E13E123325A38E110049E702 /* MeetingHeaderView.swift in Sources */,
