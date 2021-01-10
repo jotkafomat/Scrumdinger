@@ -27,6 +27,8 @@
 		E1BB0E5025A77049005D18B5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1BB0E4F25A77049005D18B5 /* ding.wav */; };
 		E1BB0E5625A78115005D18B5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB0E5525A78115005D18B5 /* History.swift */; };
 		E1F11B1925AB2B9E002FC730 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B1825AB2B9E002FC730 /* ScrumData.swift */; };
+		E1F11B1E25AB411B002FC730 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B1D25AB411B002FC730 /* MeetingTimerView.swift */; };
+		E1F11B2325AB4678002FC730 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B2225AB4678002FC730 /* SpeakerArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		E1BB0E4F25A77049005D18B5 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		E1BB0E5525A78115005D18B5 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		E1F11B1825AB2B9E002FC730 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
+		E1F11B1D25AB411B002FC730 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		E1F11B2225AB4678002FC730 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,8 @@
 				E161A781259E44AF00EF2F72 /* EditView.swift */,
 				E13E123225A38E110049E702 /* MeetingHeaderView.swift */,
 				E13E124225A4D4510049E702 /* MeetingFooterView.swift */,
+				E1F11B1D25AB411B002FC730 /* MeetingTimerView.swift */,
+				E1F11B2225AB4678002FC730 /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,8 +336,10 @@
 				E161A75C259CEFED00EF2F72 /* ScrumsView.swift in Sources */,
 				E1BB0E5625A78115005D18B5 /* History.swift in Sources */,
 				E161A782259E44AF00EF2F72 /* EditView.swift in Sources */,
+				E1F11B2325AB4678002FC730 /* SpeakerArc.swift in Sources */,
 				E1BB0E4A25A76FDE005D18B5 /* AVPlayer+Ding.swift in Sources */,
 				E1F11B1925AB2B9E002FC730 /* ScrumData.swift in Sources */,
+				E1F11B1E25AB411B002FC730 /* MeetingTimerView.swift in Sources */,
 				E13E123325A38E110049E702 /* MeetingHeaderView.swift in Sources */,
 				E161A744259CE1CA00EF2F72 /* DailyScrum.swift in Sources */,
 				E13E124325A4D4510049E702 /* MeetingFooterView.swift in Sources */,

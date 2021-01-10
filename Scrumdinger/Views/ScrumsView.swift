@@ -13,7 +13,7 @@ struct ScrumsView: View {
     @State private var newScrumData = DailyScrum.Data()
     @Environment(\.scenePhase) private var scenePhase
     let saveAction: () -> Void
-
+    
     
     var body: some View {
         List {
@@ -44,7 +44,7 @@ struct ScrumsView: View {
         }
         .onChange(of: scenePhase) { phase in
             if phase == .inactive { saveAction() }
-               }
+        }
     }
     private func binding(for scrum: DailyScrum) -> Binding<DailyScrum> {
         guard let scrumIndex = scrums.firstIndex(where: { $0.id == scrum.id }) else {
