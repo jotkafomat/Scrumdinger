@@ -26,6 +26,7 @@
 		E1BB0E4A25A76FDE005D18B5 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB0E4925A76FDE005D18B5 /* AVPlayer+Ding.swift */; };
 		E1BB0E5025A77049005D18B5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1BB0E4F25A77049005D18B5 /* ding.wav */; };
 		E1BB0E5625A78115005D18B5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB0E5525A78115005D18B5 /* History.swift */; };
+		E1F11B1925AB2B9E002FC730 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B1825AB2B9E002FC730 /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E1BB0E4925A76FDE005D18B5 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		E1BB0E4F25A77049005D18B5 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		E1BB0E5525A78115005D18B5 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		E1F11B1825AB2B9E002FC730 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				E161A743259CE1CA00EF2F72 /* DailyScrum.swift */,
 				E161A74C259CE31800EF2F72 /* Color+Codable.swift */,
 				E1BB0E4925A76FDE005D18B5 /* AVPlayer+Ding.swift */,
+				E1F11B1825AB2B9E002FC730 /* ScrumData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				E1BB0E5625A78115005D18B5 /* History.swift in Sources */,
 				E161A782259E44AF00EF2F72 /* EditView.swift in Sources */,
 				E1BB0E4A25A76FDE005D18B5 /* AVPlayer+Ding.swift in Sources */,
+				E1F11B1925AB2B9E002FC730 /* ScrumData.swift in Sources */,
 				E13E123325A38E110049E702 /* MeetingHeaderView.swift in Sources */,
 				E161A744259CE1CA00EF2F72 /* DailyScrum.swift in Sources */,
 				E13E124325A4D4510049E702 /* MeetingFooterView.swift in Sources */,

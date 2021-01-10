@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 
-struct DailyScrum: Identifiable {
+struct DailyScrum: Identifiable, Codable {
     
     init(id: UUID = UUID(), title: String, attendees: [String], lenghtInMinutes: Int, color: Color, history: [History] = []) {
         self.id = id
