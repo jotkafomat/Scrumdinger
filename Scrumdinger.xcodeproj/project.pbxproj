@@ -30,6 +30,7 @@
 		E1F11B1E25AB411B002FC730 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B1D25AB411B002FC730 /* MeetingTimerView.swift */; };
 		E1F11B2325AB4678002FC730 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B2225AB4678002FC730 /* SpeakerArc.swift */; };
 		E1F11B2925AB732C002FC730 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B2825AB732C002FC730 /* SpeechRecognizer.swift */; };
+		E1F11B2E25AB7BFE002FC730 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11B2D25AB7BFE002FC730 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		E1F11B1D25AB411B002FC730 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		E1F11B2225AB4678002FC730 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		E1F11B2825AB732C002FC730 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		E1F11B2D25AB7BFE002FC730 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			children = (
 				E13E123825A395E00049E702 /* ScrumProgressViewStyle.swift */,
 				E161A711259BCAFC00EF2F72 /* MeetingView.swift */,
+				E1F11B2D25AB7BFE002FC730 /* HistoryView.swift */,
 				E161A755259CE46800EF2F72 /* CardView.swift */,
 				E161A75B259CEFEC00EF2F72 /* ScrumsView.swift */,
 				E161A776259DEEDD00EF2F72 /* DetailView.swift */,
@@ -347,6 +350,7 @@
 				E13E123325A38E110049E702 /* MeetingHeaderView.swift in Sources */,
 				E161A744259CE1CA00EF2F72 /* DailyScrum.swift in Sources */,
 				E13E124325A4D4510049E702 /* MeetingFooterView.swift in Sources */,
+				E1F11B2E25AB7BFE002FC730 /* HistoryView.swift in Sources */,
 				E161A74D259CE31800EF2F72 /* Color+Codable.swift in Sources */,
 				E13E123E25A4CD8C0049E702 /* ScrumTimer.swift in Sources */,
 				E161A710259BCAFC00EF2F72 /* ScrumdingerApp.swift in Sources */,
