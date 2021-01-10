@@ -47,9 +47,11 @@ struct DetailView: View {
                         Label("No meetings yet", systemImage: "calendar.badge.exclamationmark")
                     }
                     ForEach(scrum.history) { history in
-                        HStack {
-                            Image(systemName: "calendar")
-                            Text(history.date, style: .date)
+                        NavigationLink(destination: HistoryView(history: history)) {
+                            HStack {
+                                Image(systemName: "calendar")
+                                Text(history.date, style: .date)
+                            }
                         }
                     }
                 }
@@ -57,20 +59,20 @@ struct DetailView: View {
         }
         .listStyle(InsetGroupedListStyle())
         .navigationBarItems(trailing: Button("Edit") {
-                    isPresented = true
-                data = scrum.data
-                })
+            isPresented = true
+            data = scrum.data
+        })
         .navigationTitle(scrum.title)
         .fullScreenCover(isPresented: $isPresented, content: {
             NavigationView {
                 EditView(scrumData: $data)
                     .navigationTitle(scrum.title)
                     .navigationBarItems(leading: Button("Cancel") {
-                                           isPresented = false
-                                       }, trailing: Button("Done") {
-                                           isPresented = false
-                                        scrum.update(from: data)
-                                       })
+                        isPresented = false
+                    }, trailing: Button("Done") {
+                        isPresented = false
+                        scrum.update(from: data)
+                    })
             }
         })
     }
